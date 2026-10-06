@@ -4722,6 +4722,25 @@
         }
       }
     });
-  </script>
+</script>
+
+<!-- Firebase Libraries -->
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+
+<script>
+  // Firebase Config & Init
+  const firebaseConfig = {
+    apiKey: "AIzaSyAlU2hMR3EZKRJnO8Dft98GpLAkAheWgHo",
+    authDomain: "shoes-b4a49.firebaseapp.com",
+    projectId: "shoes-b4a49",
+    storageBucket: "shoes-b4a49.firebasestorage.app",
+    messagingSenderId: "74212139291",
+    appId: "1:74212139291:web:9008019f0d77ed4d2b33be",
+    measurementId: "G-TX95N3SR2W"
+  };
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
 </body>
 </html>
